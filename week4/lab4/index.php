@@ -43,7 +43,7 @@
 			<aside>
 			<!-- STEP 4: Create a pair of FORM tags so that visitors can sign up for a newsletter -->
 			<!-- STEP 5: Add an action attribute to the FORM start tag that points to a file called "subscribe.php", and set the method attribute to "get" -->
-			<form id="subscribe" action="/subscribe.php" method="get">
+			<form id="subscribe" action="/week4/lab4/subscribe.php" method="get">
 				<!-- STEP 6: Add an H3 element inside the FORM tags that reads, "Subscribe to Newsletter" -->
 				<h3>Subscribe to Newsletter</h3>
 				<!-- STEP 7a: Add a LABEL element for the email address -->
