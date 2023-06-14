@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+/* body */
+body {
+	align-items: center;
+	font-family: Arial, sans-serif;
+	background-color: #a0dae0;
+	flex-direction: column;
+	display: flex;
+	justify-content: center;
+}
+
+
+/* main */
+main {
+	width: 412px;
+	padding: 17px;
+	background-color: #76b3bc;
+	border-radius: 10px;
+}
+
+
+/* topping columns */
+.topping-columns {
+	column-count: 2;
+}
+
+
+/* buttons */
+form input[type="submit"], form input[type="reset"] {
+	align-items: center;
+	padding: 12px;
+	background-color: #a0af4c;
+	color: #fff;
+	border: none;
+	border-radius: 8px;
+}
+
+
+.personal_text {
+	width: 68%;
+}
