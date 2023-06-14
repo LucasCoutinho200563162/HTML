@@ -109,9 +109,9 @@
                     <input type="radio" id="dineIn" name="deliveryType" value="dineIn" required>
                     <label for="dineIn">Dine-in</label><br>
                     <input type="radio" id="takeOut" name="deliveryType" value="takeOut" required>
-                    <label for="css">Take-out</label><br>
+                    <label for="takeOut">Take-out</label><br>
                     <input type="radio" id="delivery" name="deliveryType" value="delivery" required>
-                    <label for="javascript">Delivery</label>
+                    <label for="delivery">Delivery</label>
                     <br><br>
                     <!-- Personal Information Fields -->
                     <fieldset>
