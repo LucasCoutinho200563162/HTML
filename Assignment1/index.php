@@ -22,7 +22,7 @@
         <!-- Page-level main content -->
         <main>
             <!-- Page forms -->
-            <form action="order_placed.php" method="post">
+            <form action="order_placed.php" method="get">
                 <!-- Order details -->
                 <fieldset>
                     <legend>Make your order</legend>
