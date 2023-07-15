@@ -1,0 +1,101 @@
+@font-face {
+    font-family: "Clockwork Orange";
+    src: url("../fonts/clockwork-orange.ttf");
+}
+@font-face {
+    font-family: "Clockwork Orange Regular";
+    src: url("../fonts/Timepiece.ttf");
+}
+
+@font-face {
+    font-family: 'WarnerFont';
+    src: url('../fonts/Futura Condensed Extra Bold.otf') format('opentype');
+  }
+
+html {
+    background-image: linear-gradient(to bottom, rgba(159, 100, 76, 0.15), rgba(255, 255, 255, 0.1), rgba(159, 100, 76, 0.08)), url("../images/a-clockwork-orange.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 867px;
+    border: 2px solid #000;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+body p {
+    position: relative;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+    position: relative;
+}
+
+.description {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    top: 150px;
+    left: 10px;
+    font-size: 1.38rem;
+}
+
+.clockwork-orange-director {
+    font-family: 'Clockwork Orange Regular', sans-serif;
+    top: 455px; 
+    left: 15px;
+    font-size: 3.3rem;
+}
+
+.clockwork-orange-name {
+    font-family: 'Clockwork Orange', sans-serif;
+    top: 135px; 
+    font-size: 16rem;
+}
+
+.footer-description {
+    font-family: Helvetica, Arial, sans-serif;
+    top: -110px; 
+    font-size: 0.55rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.footer-description {
+    font-family: Helvetica, Arial, sans-serif;
+    top: -110px; 
+    font-size: 0.55rem;
+    text-align: center;
+    line-height: 1.11;
+}
+
+.footer-description-lower {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 0.4rem;
+    line-height: 0.6;
+}
+
+.warnerName {
+    font-family: "WarnerFont", sans-serif;
+    font-size: 0.30rem;
+    display: inline;
+}
+
+.warnerLogo {
+    width: 11px;
+    height: 12px;
+    display: inline;
+    vertical-align: bottom;
+}
+
+.warnerDescription {
+    font-family: "Times New Roman", serif;
+    font-size: 0.35rem;
+    display: inline;
+}
